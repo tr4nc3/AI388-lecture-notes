@@ -296,7 +296,7 @@ Language models output a probability distribution over the next possible token. 
 
 \textbf{Nucleus Sampling (Top-p)} is a probabilistic strategy designed to enhance diversity. Instead of fixing the number of candidates (like Top-k sampling), Nucleus Sampling dynamically selects the smallest set of most probable tokens (the nucleus) whose cumulative probability exceeds a threshold $p$.[15] The next token is then sampled randomly from this nucleus.
 
-The use of probabilistic sampling methods like Nucleus Sampling is critical for addressing a phenomenon known as "neural text degeneration," where language models become trapped in generating dull, repetitive, or overly safe, high-probability sequences.[7] Nucleus Sampling provides a highly fluent and context-aware method of injecting controlled randomness, ensuring the generated text is probable but not strictly the most probable path, leading to outputs perceived as more human-like and diverse.[15]
+The use of probabilistic sampling methods like Nucleus Sampling is critical for addressing a phenomenon known as ``neural text degeneration'', where language models become trapped in generating dull, repetitive, or overly safe, high-probability sequences.[7] Nucleus Sampling provides a highly fluent and context-aware method of injecting controlled randomness, ensuring the generated text is probable but not strictly the most probable path, leading to outputs perceived as more human-like and diverse.[15]
 
 \begin{table}[h!]
 \centering
@@ -320,7 +320,7 @@ Structured prediction involves outputting an entire structured sequence of label
 
 \subsection{Part-of-Speech (POS) Tagging}
 
-The goal of POS tagging is to assign the correct grammatical category (e.g., Noun, Verb, Adjective) to every word in a sentence.[7] The core challenge is lexical ambiguity; many words can belong to multiple categories (e.g., "book" can be a verb or a noun), meaning the decision for $w_t$ must incorporate surrounding context $w_{t-1}, w_{t+1}, \dots$.[7]
+The goal of POS tagging is to assign the correct grammatical category (e.g., Noun, Verb, Adjective) to every word in a sentence.[7] The core challenge is lexical ambiguity; many words can belong to multiple categories (e.g., ``book'' can be a verb or a noun), meaning the decision for $w_t$ must incorporate surrounding context $w_{t-1}, w_{t+1}, \dots$.[7]
 
 \subsection{Hidden Markov Models (HMMs)}
 
@@ -378,7 +378,7 @@ The core operations include:
 
 This greedy, classifier-driven approach results in an extreme efficiency advantage. Because the number of transitions required is linear with respect to the sentence length $n$, transition-based parsers typically achieve \textbf{linear complexity $O(n)$}.[21] This speed makes them ideal for deploying parsers on massive corpora.
 
-The trade-off for this speed is the potential sacrifice of global optimality. Since the parser makes greedy, local decisions based on the classifier's prediction (learning an "oracle" policy), an incorrect decision early in the process cannot be revisited or corrected. Consequently, the parse may converge to a locally optimal but globally sub-optimal dependency structure.[25]
+The trade-off for this speed is the potential sacrifice of global optimality. Since the parser makes greedy, local decisions based on the classifier's prediction (learning an ``oracle'' policy), an incorrect decision early in the process cannot be revisited or corrected. Consequently, the parse may converge to a locally optimal but globally sub-optimal dependency structure.[25]
 
 \subsubsection{Parsing Complexity and Algorithmic Choice}
 
