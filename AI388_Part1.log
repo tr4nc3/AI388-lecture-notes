@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.30)  18 OCT 2025 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.30)  18 OCT 2025 11:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -687,11 +687,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--408
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
-\OT1/cmr/m/n/10 (Lex-i-cal-ized)
- []
-
-
 Underfull \hbox (badness 2762) in paragraph at lines 408--408
 \OT1/cmr/m/n/10 the glob-ally op-ti-
  []
@@ -739,12 +734,6 @@ Underfull \hbox (badness 6592) in paragraph at lines 410--410
 
 Underfull \hbox (badness 10000) in paragraph at lines 410--410
 \OT1/cmr/m/n/10 pen-dency
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 410--410
-[]|$\OML/cmm/m/it/10 O\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$ (Li
-n-ear)
  []
 
 
@@ -811,10 +800,6 @@ Overfull \hbox (62.89523pt too wide) in alignment at lines 407--412
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2024-12-25>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `AI388_Part1.out' has not changed.
 (rerunfilecheck)             Checksum: 86C3E69473058D6131CD7C504ABDDE53;10928.
  ) 
@@ -825,7 +810,7 @@ Here is how much of TeX's memory you used:
  33528 multiletter control sequences out of 15000+600000
  568168 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,79p,969b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,79p,959b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -845,7 +830,7 @@ e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
 24/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on AI388_Part1.pdf (15 pages, 292312 bytes).
+Output written on AI388_Part1.pdf (15 pages, 291899 bytes).
 PDF statistics:
  395 PDF objects out of 1000 (max. 8388607)
  336 compressed objects within 4 object streams
