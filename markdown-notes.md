@@ -117,7 +117,7 @@ Table II: Word Embedding Model Comparison
 | Model | Prediction Direction | Primary Strength | Primary Weakness/Cost | Efficiency Technique |
 |---|---|---|---|---|
 | CBOW | Context $\rightarrow$ Target Word | Faster training; frequent words/syntax.[5] | Averages context; struggles with rare words.[8] | N/A (often uses HS/NS) |
-| Skip-Gram (SG) | Target Word $\rightarrow$ Context Words | Better for rare words; semantics.[6] | Slower training (multiple predictions); initial $O(|\mathcal{V}|d)$ cost. | Negative Sampling or Hierarchical Softmax.[1] |
+| Skip-Gram (SG) | Target Word $\rightarrow$ Context Words | Better for rare words; semantics.[6] | Slower training (multiple predictions); initial $O(\|\mathcal{V}\|d)$ cost. | Negative Sampling or Hierarchical Softmax.[1] |
 | GloVe | Matrix Factorization | Global context, highly effective representations.[1] | Requires full pre-computation of co-occurrence matrix. | N/A |
 
 #### 3.3 Efficiency Techniques
