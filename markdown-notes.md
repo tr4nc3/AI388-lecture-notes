@@ -66,7 +66,7 @@ Table I: Linear Classifier Properties and Tradeoffs
 | Classifier | Objective Function | Output Type | Loss Property | Key Update Factor | Convergence Guarantee |
 |---|---|---|---|---|---|
 | Perceptron | $L = \max(0, -y \overline{w}^T f(\overline{x}))$ | Binary ($\pm 1$) | Non-differentiable (Subgradient) | $\pm \alpha f(\overline{x})$ (Constant magnitude) | Yes, if linearly separable.[4] |
-| Logistic Regression | $L = -\log P(y|\overline{x})$ (NLL) | Probabilistic $(0, 1)$ | Convex, Differentiable | Proportional to error magnitude ($1-P(y|\overline{x})$).[1] | No, but reaches minimum loss/maximum likelihood. |
+| Logistic Regression | $L = -\log P(y\|\overline{x})$ (NLL) | Probabilistic $(0, 1)$ | Convex, Differentiable | Proportional to error magnitude ($1-P(y\|\overline{x})$).[1] | No, but reaches minimum loss/maximum likelihood. |
 
 #### 2.3 Multiclass Classification and Softmax
 
